@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <title>
+   Account - Donutella
+  </title>
+  <link href="../css/style.css" rel="stylesheet"/>
+  <script src="../libs/jquery/jquery.min.js">
+  </script>
+  <script src="../js/script.js">
+  </script>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Donutella Account
+   </h1>
+   <nav>
+    <a href="../index.html">
+     Home
+    </a>
+    <a href="donuts.html">
+     Donuts
+    </a>
+    <a href="about.html">
+     About Us
+    </a>
+    <a href="contact.html">
+     Contact Us
+    </a>
+    <a href="account.html">
+     Account
+    </a>
+   </nav>
+  </header>
+  <main>
+   <div class="form-box">
+    <h2>
+     Create Account
+    </h2>
+    <form id="registerForm">
+     <label>
+      Full Name
+     </label>
+     <input required="" type="text"/>
+     <label>
+      Email
+     </label>
+     <input required="" type="email"/>
+     <label>
+      Password
+     </label>
+     <input id="password" minlength="6" required="" type="password"/>
+     <label>
+      Confirm Password
+     </label>
+     <input id="confirmPassword" required="" type="password"/>
+     <button type="submit">
+      Create Account
+     </button>
+     <p id="formMsg">
+     </p>
+    </form>
+   </div>
+   <div class="form-box">
+    <h2>
+     Login
+    </h2>
+    <form id="loginForm">
+     <label>
+      Email
+     </label>
+     <input required="" type="email"/>
+     <label>
+      Password
+     </label>
+     <input required="" type="password"/>
+     <button type="submit">
+      Login
+     </button>
+    </form>
+   </div>
+  </main>
+  <div class="toast">
+  </div>
+  <footer>
+   © 2026 Donutella. All Rights Reserved.
+  </footer>
+ </body>
+</html>
